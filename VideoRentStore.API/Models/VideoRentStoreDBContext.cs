@@ -17,5 +17,6 @@ namespace VideoRentStore.API.Models
         public DbSet<Director> Directors { get; set; }
         public DbSet<Rent> Rents { get; set; }
         public DbSet<Customer> Customers { get; set; }
+
     }
 }

@@ -16,7 +16,6 @@ namespace VideoRentStore.API.Controllers
     [ApiController]
     public class AccountsController : Controller
     {
-        private readonly IdentityContext _appDbContext;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
 

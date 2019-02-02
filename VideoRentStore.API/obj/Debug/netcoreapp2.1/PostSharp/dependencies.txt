@@ -1,0 +1,3 @@
+C:\ProgramData\PostSharp\6.0.34\bin.Release\netcoreapp2.0\PostSharp.Compiler.Engine.dll
+C:\Users\oluji\source\repos\VideoRentStore.API\VideoRentStore.API\obj\Debug\netcoreapp2.1\PostSharp\postsharp.config
+C:\Users\oluji\.nuget\packages\PostSharp.Patterns.Diagnostics\6.0.34\tools\PostSharp.Patterns.Diagnostics.Weaver.dll

@@ -1,0 +1,116 @@
+2019-01-26 22:17:08.3524|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Starting.
+2019-01-26 22:17:08.3958|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Succeeded.
+2019-01-26 22:17:08.4197|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Starting.
+2019-01-26 22:17:08.4197|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Succeeded.
+2019-01-26 22:17:08.4368|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Starting.
+2019-01-26 22:17:08.4368|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Succeeded.
+2019-01-26 22:17:08.4674|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Starting.
+2019-01-26 22:17:08.4674|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Succeeded.
+2019-01-26 22:17:08.4973|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Starting.
+2019-01-26 22:17:08.4973|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Succeeded.
+2019-01-26 22:17:08.4973|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Starting.
+2019-01-26 22:17:08.4973|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Succeeded.
+2019-01-26 22:17:08.4973|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Starting.
+2019-01-26 22:17:08.4973|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Succeeded.
+2019-01-26 22:17:08.4973|DEBUG|Trace|MoviesController.GetMovies()|Starting.
+2019-01-26 22:17:08.5656|DEBUG|Trace|MoviesController.GetMovies()|Succeeded, returnValue = [ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ].
+2019-01-26 22:17:15.6711|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Starting.
+2019-01-26 22:17:15.7144|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Succeeded.
+2019-01-26 22:17:15.7368|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Starting.
+2019-01-26 22:17:15.7368|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Succeeded.
+2019-01-26 22:17:15.7530|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Starting.
+2019-01-26 22:17:15.7530|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Succeeded.
+2019-01-26 22:17:15.7808|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Starting.
+2019-01-26 22:17:15.7808|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Succeeded.
+2019-01-26 22:17:15.8103|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Starting.
+2019-01-26 22:17:15.8103|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Succeeded.
+2019-01-26 22:17:15.8103|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Starting.
+2019-01-26 22:17:15.8103|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Succeeded.
+2019-01-26 22:17:15.8103|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Starting.
+2019-01-26 22:17:15.8103|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Succeeded.
+2019-01-26 22:17:15.8345|DEBUG|Trace|MoviesController.GetMovie(1)|Starting.
+2019-01-26 22:17:15.8345|DEBUG|Trace|MoviesController.GetMovie(1)|Succeeded, returnValue = {Microsoft.AspNetCore.Mvc.OkObjectResult}.
+2019-01-26 23:11:51.5056|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Starting.
+2019-01-26 23:11:51.5609|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Succeeded.
+2019-01-26 23:11:51.5879|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Starting.
+2019-01-26 23:11:51.5879|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Succeeded.
+2019-01-26 23:11:51.6055|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Starting.
+2019-01-26 23:11:51.6055|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Succeeded.
+2019-01-26 23:11:51.6352|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Starting.
+2019-01-26 23:11:51.6352|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Succeeded.
+2019-01-26 23:11:51.6654|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Starting.
+2019-01-26 23:11:51.6654|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Succeeded.
+2019-01-26 23:11:51.6654|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Starting.
+2019-01-26 23:11:51.6654|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Succeeded.
+2019-01-26 23:11:51.6654|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Starting.
+2019-01-26 23:11:51.6654|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Succeeded.
+2019-01-26 23:11:51.6871|DEBUG|Trace|MoviesController.GetMovie(1)|Starting.
+2019-01-26 23:11:51.6871|DEBUG|Trace|MoviesController.GetMovie(1)|Succeeded, returnValue = {Microsoft.AspNetCore.Mvc.OkObjectResult}.
+2019-01-26 23:11:51.7828|DEBUG|Trace|IdentityHostingStartup..ctor()|Starting.
+2019-01-26 23:11:51.7828|DEBUG|Trace|IdentityHostingStartup..ctor()|Succeeded.
+2019-01-26 23:11:51.7863|DEBUG|Trace|IdentityHostingStartup.Configure({Microsoft.AspNetCore.Hosting.WebHostBuilder})|Starting.
+2019-01-26 23:11:51.7863|DEBUG|Trace|IdentityHostingStartup.Configure({Microsoft.AspNetCore.Hosting.WebHostBuilder})|Succeeded.
+2019-01-26 23:11:51.7863|DEBUG|Trace|LogConfig.Configure()|Starting.
+2019-01-26 23:11:51.7863|DEBUG|Trace|LogConfig.Configure()|Succeeded.
+2019-01-27 15:53:46.0060|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Starting.
+2019-01-27 15:53:46.0514|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Succeeded.
+2019-01-27 15:53:46.0698|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Starting.
+2019-01-27 15:53:46.0698|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Succeeded.
+2019-01-27 15:53:46.0854|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Starting.
+2019-01-27 15:53:46.0854|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Succeeded.
+2019-01-27 15:53:46.1124|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Starting.
+2019-01-27 15:53:46.1124|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Succeeded.
+2019-01-27 15:53:46.1415|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Starting.
+2019-01-27 15:53:46.1415|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Succeeded.
+2019-01-27 15:53:46.1415|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Starting.
+2019-01-27 15:53:46.1415|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Succeeded.
+2019-01-27 15:53:46.1415|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Starting.
+2019-01-27 15:53:46.1415|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Succeeded.
+2019-01-27 15:53:46.1687|DEBUG|Trace|MoviesController.GetMovie(1)|Starting.
+2019-01-27 15:53:46.1687|DEBUG|Trace|MoviesController.GetMovie(1)|Succeeded, returnValue = {Microsoft.AspNetCore.Mvc.OkObjectResult}.
+2019-01-27 15:53:46.2527|DEBUG|Trace|IdentityHostingStartup..ctor()|Starting.
+2019-01-27 15:53:46.2527|DEBUG|Trace|IdentityHostingStartup..ctor()|Succeeded.
+2019-01-27 15:53:46.2527|DEBUG|Trace|IdentityHostingStartup.Configure({Microsoft.AspNetCore.Hosting.WebHostBuilder})|Starting.
+2019-01-27 15:53:46.2527|DEBUG|Trace|IdentityHostingStartup.Configure({Microsoft.AspNetCore.Hosting.WebHostBuilder})|Succeeded.
+2019-01-27 15:53:46.2635|DEBUG|Trace|LogConfig.Configure()|Starting.
+2019-01-27 15:53:46.2635|DEBUG|Trace|LogConfig.Configure()|Succeeded.
+2019-01-27 15:56:13.3295|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Starting.
+2019-01-27 15:56:13.3743|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Succeeded.
+2019-01-27 15:56:13.3925|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Starting.
+2019-01-27 15:56:13.3925|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Succeeded.
+2019-01-27 15:56:13.4073|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Starting.
+2019-01-27 15:56:13.4073|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Succeeded.
+2019-01-27 15:56:13.4349|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Starting.
+2019-01-27 15:56:13.4349|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Succeeded.
+2019-01-27 15:56:13.4626|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Starting.
+2019-01-27 15:56:13.4626|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Succeeded.
+2019-01-27 15:56:13.4626|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Starting.
+2019-01-27 15:56:13.4626|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Succeeded.
+2019-01-27 15:56:13.4626|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Starting.
+2019-01-27 15:56:13.4626|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Succeeded.
+2019-01-27 15:56:13.4854|DEBUG|Trace|MoviesController.GetMovie(1)|Starting.
+2019-01-27 15:56:13.4854|DEBUG|Trace|MoviesController.GetMovie(1)|Succeeded, returnValue = {Microsoft.AspNetCore.Mvc.OkObjectResult}.
+2019-01-27 15:56:13.5659|DEBUG|Trace|IdentityHostingStartup..ctor()|Starting.
+2019-01-27 15:56:13.5659|DEBUG|Trace|IdentityHostingStartup..ctor()|Succeeded.
+2019-01-27 15:56:13.5659|DEBUG|Trace|IdentityHostingStartup.Configure({Microsoft.AspNetCore.Hosting.WebHostBuilder})|Starting.
+2019-01-27 15:56:13.5659|DEBUG|Trace|IdentityHostingStartup.Configure({Microsoft.AspNetCore.Hosting.WebHostBuilder})|Succeeded.
+2019-01-27 15:56:13.5785|DEBUG|Trace|LogConfig.Configure()|Starting.
+2019-01-27 15:56:13.5785|DEBUG|Trace|LogConfig.Configure()|Succeeded.
+2019-01-27 16:22:55.6217|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Starting.
+2019-01-27 16:22:55.6634|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Succeeded.
+2019-01-27 16:22:55.6794|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Starting.
+2019-01-27 16:22:55.6794|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Succeeded.
+2019-01-27 16:22:55.6938|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Starting.
+2019-01-27 16:22:55.6938|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Succeeded.
+2019-01-27 16:22:55.7192|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Starting.
+2019-01-27 16:22:55.7192|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie} ])|Succeeded.
+2019-01-27 16:22:55.7472|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Starting.
+2019-01-27 16:22:55.7472|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent} ])|Succeeded.
+2019-01-27 16:22:55.7472|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Starting.
+2019-01-27 16:22:55.7472|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Succeeded.
+2019-01-27 16:22:55.7472|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Starting.
+2019-01-27 16:22:55.7472|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Succeeded.
+2019-01-27 16:22:55.7687|DEBUG|Trace|MoviesController.DeleteMovie(5)|Starting.
+2019-01-27 16:22:55.8519|DEBUG|Trace|MoviesController.DeleteMovie(5)|Awaiting for method DbContext.SaveChangesAsync in state machine #1.
+2019-01-27 16:22:55.8519|DEBUG|Trace|MoviesController.DeleteMovie(5)|Resuming from method DbContext.SaveChangesAsync in state machine #1.
+2019-01-27 16:22:55.8641|DEBUG|Trace|MoviesController.DeleteMovie(5)|Succeeded, returnValue = {Microsoft.AspNetCore.Mvc.OkObjectResult}.

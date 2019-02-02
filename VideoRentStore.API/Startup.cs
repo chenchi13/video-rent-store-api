@@ -12,13 +12,17 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using VideoRentStore.API.Models;
+using PostSharp.Patterns.Diagnostics;
+using VideoRentStore.API.Logging;
 
 namespace VideoRentStore.API
 {
+    [Log(AttributeExclude = true)]
     public class Startup
     {
         public Startup(IConfiguration configuration)
         {
+            LogConfig.Configure();
             Configuration = configuration;
         }
 
@@ -29,7 +33,7 @@ namespace VideoRentStore.API
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            var connection = @"Server=n00b;Database=VideoRentStoreDB;Trusted_Connection=True;ConnectRetryCount=0";
+            var connection = @"Data source=(LocalDb)\MSSQLLocalDB;Database=VideoRentStoreDB;Trusted_Connection=True;ConnectRetryCount=0";
             services.AddDbContext<VideoRentStoreDBContext>(options => options.UseSqlServer(connection));
 
             services.AddCors(options =>

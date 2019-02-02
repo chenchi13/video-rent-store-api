@@ -1,0 +1,863 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="886" PostSharpLinesOfCode="0" EnhancedTypesCount="63" SchemaVersion="1" PostSharpVersion="6.0.34.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Evolution Source="#1=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController::Login([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.LoginViewModel)" Target="#2=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController+&lt;Login&gt;d__3::MoveNext()" />
+  <Evolution Source="#3=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController::Register([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.RegisterViewModel)" Target="#4=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController+&lt;Register&gt;d__4::MoveNext()" />
+  <Evolution Source="#5=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController::Logout()" Target="#6=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController+&lt;Logout&gt;d__5::MoveNext()" />
+  <Evolution Source="#7=M:[VideoRentStore.API]VideoRentStore.API.Controllers.CustomersController::GetCustomer(System.Int32)" Target="#8=M:[VideoRentStore.API]VideoRentStore.API.Controllers.CustomersController+&lt;GetCustomer&gt;d__3::MoveNext()" />
+  <Evolution Source="#9=M:[VideoRentStore.API]VideoRentStore.API.Controllers.CustomersController::PutCustomer(System.Int32, [VideoRentStore.API]VideoRentStore.API.Models.Customer)" Target="#10=M:[VideoRentStore.API]VideoRentStore.API.Controllers.CustomersController+&lt;PutCustomer&gt;d__4::MoveNext()" />
+  <Evolution Source="#11=M:[VideoRentStore.API]VideoRentStore.API.Controllers.CustomersController::PostCustomer([VideoRentStore.API]VideoRentStore.API.Models.Customer)" Target="#12=M:[VideoRentStore.API]VideoRentStore.API.Controllers.CustomersController+&lt;PostCustomer&gt;d__5::MoveNext()" />
+  <Evolution Source="#13=M:[VideoRentStore.API]VideoRentStore.API.Controllers.CustomersController::DeleteCustomer(System.Int32)" Target="#14=M:[VideoRentStore.API]VideoRentStore.API.Controllers.CustomersController+&lt;DeleteCustomer&gt;d__6::MoveNext()" />
+  <Evolution Source="#15=M:[VideoRentStore.API]VideoRentStore.API.Controllers.DirectorsController::GetDirector(System.Int32)" Target="#16=M:[VideoRentStore.API]VideoRentStore.API.Controllers.DirectorsController+&lt;GetDirector&gt;d__3::MoveNext()" />
+  <Evolution Source="#17=M:[VideoRentStore.API]VideoRentStore.API.Controllers.DirectorsController::PutDirector(System.Int32, [VideoRentStore.API]VideoRentStore.API.Models.Director)" Target="#18=M:[VideoRentStore.API]VideoRentStore.API.Controllers.DirectorsController+&lt;PutDirector&gt;d__4::MoveNext()" />
+  <Evolution Source="#19=M:[VideoRentStore.API]VideoRentStore.API.Controllers.DirectorsController::PostDirector([VideoRentStore.API]VideoRentStore.API.Models.Director)" Target="#20=M:[VideoRentStore.API]VideoRentStore.API.Controllers.DirectorsController+&lt;PostDirector&gt;d__5::MoveNext()" />
+  <Evolution Source="#21=M:[VideoRentStore.API]VideoRentStore.API.Controllers.DirectorsController::DeleteDirector(System.Int32)" Target="#22=M:[VideoRentStore.API]VideoRentStore.API.Controllers.DirectorsController+&lt;DeleteDirector&gt;d__6::MoveNext()" />
+  <Evolution Source="#23=M:[VideoRentStore.API]VideoRentStore.API.Controllers.GenresController::GetGenre(System.Int32)" Target="#24=M:[VideoRentStore.API]VideoRentStore.API.Controllers.GenresController+&lt;GetGenre&gt;d__3::MoveNext()" />
+  <Evolution Source="#25=M:[VideoRentStore.API]VideoRentStore.API.Controllers.GenresController::PutGenre(System.Int32, [VideoRentStore.API]VideoRentStore.API.Models.Genre)" Target="#26=M:[VideoRentStore.API]VideoRentStore.API.Controllers.GenresController+&lt;PutGenre&gt;d__4::MoveNext()" />
+  <Evolution Source="#27=M:[VideoRentStore.API]VideoRentStore.API.Controllers.GenresController::PostGenre([VideoRentStore.API]VideoRentStore.API.Models.Genre)" Target="#28=M:[VideoRentStore.API]VideoRentStore.API.Controllers.GenresController+&lt;PostGenre&gt;d__5::MoveNext()" />
+  <Evolution Source="#29=M:[VideoRentStore.API]VideoRentStore.API.Controllers.GenresController::DeleteGenre(System.Int32)" Target="#30=M:[VideoRentStore.API]VideoRentStore.API.Controllers.GenresController+&lt;DeleteGenre&gt;d__6::MoveNext()" />
+  <Evolution Source="#31=M:[VideoRentStore.API]VideoRentStore.API.Controllers.MoviesController::GetMovie(System.Int32)" Target="#32=M:[VideoRentStore.API]VideoRentStore.API.Controllers.MoviesController+&lt;GetMovie&gt;d__3::MoveNext()" />
+  <Evolution Source="#33=M:[VideoRentStore.API]VideoRentStore.API.Controllers.MoviesController::PutMovie(System.Int32, [VideoRentStore.API]VideoRentStore.API.Models.Movie)" Target="#34=M:[VideoRentStore.API]VideoRentStore.API.Controllers.MoviesController+&lt;PutMovie&gt;d__4::MoveNext()" />
+  <Evolution Source="#35=M:[VideoRentStore.API]VideoRentStore.API.Controllers.MoviesController::PostMovie([VideoRentStore.API]VideoRentStore.API.Models.Movie)" Target="#36=M:[VideoRentStore.API]VideoRentStore.API.Controllers.MoviesController+&lt;PostMovie&gt;d__5::MoveNext()" />
+  <Evolution Source="#37=M:[VideoRentStore.API]VideoRentStore.API.Controllers.MoviesController::DeleteMovie(System.Int32)" Target="#38=M:[VideoRentStore.API]VideoRentStore.API.Controllers.MoviesController+&lt;DeleteMovie&gt;d__6::MoveNext()" />
+  <Evolution Source="#39=M:[VideoRentStore.API]VideoRentStore.API.Controllers.RentsController::GetRent(System.Int32)" Target="#40=M:[VideoRentStore.API]VideoRentStore.API.Controllers.RentsController+&lt;GetRent&gt;d__3::MoveNext()" />
+  <Evolution Source="#41=M:[VideoRentStore.API]VideoRentStore.API.Controllers.RentsController::PutRent(System.Int32, [VideoRentStore.API]VideoRentStore.API.Models.Rent)" Target="#42=M:[VideoRentStore.API]VideoRentStore.API.Controllers.RentsController+&lt;PutRent&gt;d__4::MoveNext()" />
+  <Evolution Source="#43=M:[VideoRentStore.API]VideoRentStore.API.Controllers.RentsController::PostRent([VideoRentStore.API]VideoRentStore.API.Models.Rent)" Target="#44=M:[VideoRentStore.API]VideoRentStore.API.Controllers.RentsController+&lt;PostRent&gt;d__5::MoveNext()" />
+  <Evolution Source="#45=M:[VideoRentStore.API]VideoRentStore.API.Controllers.RentsController::DeleteRent(System.Int32)" Target="#46=M:[VideoRentStore.API]VideoRentStore.API.Controllers.RentsController+&lt;DeleteRent&gt;d__6::MoveNext()" />
+  <Evolution Source="#47=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ConfirmEmailModel::OnGetAsync(System.String, System.String)" Target="#48=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ConfirmEmailModel+&lt;OnGetAsync&gt;d__2::MoveNext()" />
+  <Evolution Source="#49=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel::OnGetCallbackAsync(System.String, System.String)" Target="#50=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel+&lt;OnGetCallbackAsync&gt;d__23::MoveNext()" />
+  <Evolution Source="#51=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel::OnPostConfirmationAsync(System.String)" Target="#52=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel+&lt;OnPostConfirmationAsync&gt;d__24::MoveNext()" />
+  <Evolution Source="#53=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ForgotPasswordModel::OnPostAsync()" Target="#54=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ForgotPasswordModel+&lt;OnPostAsync&gt;d__8::MoveNext()" />
+  <Evolution Source="#55=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel::OnGetAsync(System.String)" Target="#56=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel+&lt;OnGetAsync&gt;d__20::MoveNext()" />
+  <Evolution Source="#57=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel::OnPostAsync(System.String)" Target="#58=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel+&lt;OnPostAsync&gt;d__21::MoveNext()" />
+  <Evolution Source="#59=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel::OnGetAsync(System.Boolean, System.String)" Target="#60=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel+&lt;OnGetAsync&gt;d__16::MoveNext()" />
+  <Evolution Source="#61=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel::OnPostAsync(System.Boolean, System.String)" Target="#62=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel+&lt;OnPostAsync&gt;d__17::MoveNext()" />
+  <Evolution Source="#63=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel::OnGetAsync(System.String)" Target="#64=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel+&lt;OnGetAsync&gt;d__12::MoveNext()" />
+  <Evolution Source="#65=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel::OnPostAsync(System.String)" Target="#66=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel+&lt;OnPostAsync&gt;d__13::MoveNext()" />
+  <Evolution Source="#67=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LogoutModel::OnPost(System.String)" Target="#68=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LogoutModel+&lt;OnPost&gt;d__4::MoveNext()" />
+  <Evolution Source="#69=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel::OnPostAsync(System.String)" Target="#70=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel+&lt;OnPostAsync&gt;d__15::MoveNext()" />
+  <Evolution Source="#71=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel::OnPostAsync()" Target="#72=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel+&lt;OnPostAsync&gt;d__8::MoveNext()" />
+  <Evolution Source="#73=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel::OnGetAsync()" Target="#74=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel+&lt;OnGetAsync&gt;d__13::MoveNext()" />
+  <Evolution Source="#75=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel::OnPostAsync()" Target="#76=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel+&lt;OnPostAsync&gt;d__14::MoveNext()" />
+  <Evolution Source="#77=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel::OnGet()" Target="#78=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel+&lt;OnGet&gt;d__13::MoveNext()" />
+  <Evolution Source="#79=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel::OnPostAsync()" Target="#80=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel+&lt;OnPostAsync&gt;d__14::MoveNext()" />
+  <Evolution Source="#81=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.Disable2faModel::OnGet()" Target="#82=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.Disable2faModel+&lt;OnGet&gt;d__7::MoveNext()" />
+  <Evolution Source="#83=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.Disable2faModel::OnPostAsync()" Target="#84=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.Disable2faModel+&lt;OnPostAsync&gt;d__8::MoveNext()" />
+  <Evolution Source="#85=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DownloadPersonalDataModel::OnPostAsync()" Target="#86=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DownloadPersonalDataModel+&lt;OnPostAsync&gt;d__3::MoveNext()" />
+  <Evolution Source="#87=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel::OnGetAsync()" Target="#88=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel+&lt;OnGetAsync&gt;d__26::MoveNext()" />
+  <Evolution Source="#89=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel::OnPostAsync()" Target="#90=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel+&lt;OnPostAsync&gt;d__27::MoveNext()" />
+  <Evolution Source="#91=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel::OnGetAsync()" Target="#92=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel+&lt;OnGetAsync&gt;d__19::MoveNext()" />
+  <Evolution Source="#93=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel::OnPostRemoveLoginAsync(System.String, System.String)" Target="#94=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel+&lt;OnPostRemoveLoginAsync&gt;d__20::MoveNext()" />
+  <Evolution Source="#95=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel::OnPostLinkLoginAsync(System.String)" Target="#96=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel+&lt;OnPostLinkLoginAsync&gt;d__21::MoveNext()" />
+  <Evolution Source="#97=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel::OnGetLinkLoginCallbackAsync()" Target="#98=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel+&lt;OnGetLinkLoginCallbackAsync&gt;d__22::MoveNext()" />
+  <Evolution Source="#99=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel::OnGetAsync()" Target="#100=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel+&lt;OnGetAsync&gt;d__11::MoveNext()" />
+  <Evolution Source="#101=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel::OnPostAsync()" Target="#102=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel+&lt;OnPostAsync&gt;d__12::MoveNext()" />
+  <Evolution Source="#103=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel::OnGetAsync()" Target="#104=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel+&lt;OnGetAsync&gt;d__21::MoveNext()" />
+  <Evolution Source="#105=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel::OnPostAsync()" Target="#106=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel+&lt;OnPostAsync&gt;d__22::MoveNext()" />
+  <Evolution Source="#107=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel::OnPostSendVerificationEmailAsync()" Target="#108=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel+&lt;OnPostSendVerificationEmailAsync&gt;d__23::MoveNext()" />
+  <Evolution Source="#109=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.PersonalDataModel::OnGet()" Target="#110=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.PersonalDataModel+&lt;OnGet&gt;d__3::MoveNext()" />
+  <Evolution Source="#111=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel::OnGet()" Target="#112=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel+&lt;OnGet&gt;d__8::MoveNext()" />
+  <Evolution Source="#113=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel::OnPostAsync()" Target="#114=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel+&lt;OnPostAsync&gt;d__9::MoveNext()" />
+  <Evolution Source="#115=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel::OnGetAsync()" Target="#116=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel+&lt;OnGetAsync&gt;d__12::MoveNext()" />
+  <Evolution Source="#117=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel::OnPostAsync()" Target="#118=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel+&lt;OnPostAsync&gt;d__13::MoveNext()" />
+  <Evolution Source="#119=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel::OnGet()" Target="#120=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel+&lt;OnGet&gt;d__25::MoveNext()" />
+  <Evolution Source="#121=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel::OnPost()" Target="#122=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel+&lt;OnPost&gt;d__26::MoveNext()" />
+  <Class Class="#123=T:[PostSharp.Patterns.Diagnostics]PostSharp.Patterns.Diagnostics.LogAttribute">
+    <Instance Declaration="#124=A:VideoRentStore.API" Id="e81bd8750ac77acc">
+      <Target Target="#125=M:[VideoRentStore.API]VideoRentStore.API.Program::Main(System.String[])">
+        <JoinPoint Advising="#123" Description="#126=Adds logging" Ordinal="0" LinesAvoided="5" />
+      </Target>
+      <Target Target="#127=M:[VideoRentStore.API]VideoRentStore.API.Program::CreateWebHostBuilder(System.String[])">
+        <JoinPoint Advising="#123" Description="#126" LinesAvoided="5" />
+      </Target>
+      <Target Target="#128=M:[VideoRentStore.API]VideoRentStore.API.Program::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="2" LinesAvoided="5" />
+      </Target>
+      <Target Target="#129=M:[VideoRentStore.API]VideoRentStore.API.Migrations.InitialCreate::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="3" LinesAvoided="5" />
+      </Target>
+      <Target Target="#130=M:[VideoRentStore.API]VideoRentStore.API.Migrations.InitialCreate::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="4" LinesAvoided="5" />
+      </Target>
+      <Target Target="#131=M:[VideoRentStore.API]VideoRentStore.API.Migrations.InitialCreate::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="5" LinesAvoided="5" />
+      </Target>
+      <Target Target="#132=M:[VideoRentStore.API]VideoRentStore.API.Migrations.InitialCreate::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="6" LinesAvoided="5" />
+      </Target>
+      <Target Target="#133=M:[VideoRentStore.API]VideoRentStore.API.Migrations.VideoRentStoreDBContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="7" LinesAvoided="5" />
+      </Target>
+      <Target Target="#134=M:[VideoRentStore.API]VideoRentStore.API.Migrations.VideoRentStoreDBContextModelSnapshot::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="8" LinesAvoided="5" />
+      </Target>
+      <Target Target="#135=M:[VideoRentStore.API]VideoRentStore.API.Migrations.Identity.CreateIdentitySchema::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="9" LinesAvoided="5" />
+      </Target>
+      <Target Target="#136=M:[VideoRentStore.API]VideoRentStore.API.Migrations.Identity.CreateIdentitySchema::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="10" LinesAvoided="5" />
+      </Target>
+      <Target Target="#137=M:[VideoRentStore.API]VideoRentStore.API.Migrations.Identity.CreateIdentitySchema::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="11" LinesAvoided="5" />
+      </Target>
+      <Target Target="#138=M:[VideoRentStore.API]VideoRentStore.API.Migrations.Identity.CreateIdentitySchema::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="12" LinesAvoided="5" />
+      </Target>
+      <Target Target="#139=M:[VideoRentStore.API]VideoRentStore.API.Migrations.Identity.IdentityContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="13" LinesAvoided="5" />
+      </Target>
+      <Target Target="#140=M:[VideoRentStore.API]VideoRentStore.API.Migrations.Identity.IdentityContextModelSnapshot::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="14" LinesAvoided="5" />
+      </Target>
+      <Target Target="#141=M:[VideoRentStore.API]VideoRentStore.API.Logging.LogConfig::Configure()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="15" LinesAvoided="5" />
+      </Target>
+      <Target Target="#142=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="16" LinesAvoided="5" />
+      </Target>
+      <Target Target="#1">
+        <JoinPoint Advised="#2" Advising="#123" Description="#126" Ordinal="17" LinesAvoided="7" />
+      </Target>
+      <Target Target="#3">
+        <JoinPoint Advised="#4" Advising="#123" Description="#126" Ordinal="18" LinesAvoided="7" />
+      </Target>
+      <Target Target="#5">
+        <JoinPoint Advised="#6" Advising="#123" Description="#126" Ordinal="19" LinesAvoided="7" />
+      </Target>
+      <Target Target="#143=M:[VideoRentStore.API]VideoRentStore.API.Controllers.CustomersController::#ctor([VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="20" LinesAvoided="5" />
+      </Target>
+      <Target Target="#144=M:[VideoRentStore.API]VideoRentStore.API.Controllers.CustomersController::GetCustomers()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="21" LinesAvoided="5" />
+      </Target>
+      <Target Target="#7">
+        <JoinPoint Advised="#8" Advising="#123" Description="#126" Ordinal="22" LinesAvoided="7" />
+      </Target>
+      <Target Target="#9">
+        <JoinPoint Advised="#10" Advising="#123" Description="#126" Ordinal="23" LinesAvoided="7" />
+      </Target>
+      <Target Target="#11">
+        <JoinPoint Advised="#12" Advising="#123" Description="#126" Ordinal="24" LinesAvoided="7" />
+      </Target>
+      <Target Target="#13">
+        <JoinPoint Advised="#14" Advising="#123" Description="#126" Ordinal="25" LinesAvoided="7" />
+      </Target>
+      <Target Target="#145=M:[VideoRentStore.API]VideoRentStore.API.Controllers.DirectorsController::#ctor([VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="26" LinesAvoided="5" />
+      </Target>
+      <Target Target="#146=M:[VideoRentStore.API]VideoRentStore.API.Controllers.DirectorsController::GetDirectors()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="27" LinesAvoided="5" />
+      </Target>
+      <Target Target="#15">
+        <JoinPoint Advised="#16" Advising="#123" Description="#126" Ordinal="28" LinesAvoided="7" />
+      </Target>
+      <Target Target="#17">
+        <JoinPoint Advised="#18" Advising="#123" Description="#126" Ordinal="29" LinesAvoided="7" />
+      </Target>
+      <Target Target="#19">
+        <JoinPoint Advised="#20" Advising="#123" Description="#126" Ordinal="30" LinesAvoided="7" />
+      </Target>
+      <Target Target="#21">
+        <JoinPoint Advised="#22" Advising="#123" Description="#126" Ordinal="31" LinesAvoided="7" />
+      </Target>
+      <Target Target="#147=M:[VideoRentStore.API]VideoRentStore.API.Controllers.GenresController::#ctor([VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="32" LinesAvoided="5" />
+      </Target>
+      <Target Target="#148=M:[VideoRentStore.API]VideoRentStore.API.Controllers.GenresController::GetGenres()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="33" LinesAvoided="5" />
+      </Target>
+      <Target Target="#23">
+        <JoinPoint Advised="#24" Advising="#123" Description="#126" Ordinal="34" LinesAvoided="7" />
+      </Target>
+      <Target Target="#25">
+        <JoinPoint Advised="#26" Advising="#123" Description="#126" Ordinal="35" LinesAvoided="7" />
+      </Target>
+      <Target Target="#27">
+        <JoinPoint Advised="#28" Advising="#123" Description="#126" Ordinal="36" LinesAvoided="7" />
+      </Target>
+      <Target Target="#29">
+        <JoinPoint Advised="#30" Advising="#123" Description="#126" Ordinal="37" LinesAvoided="7" />
+      </Target>
+      <Target Target="#149=M:[VideoRentStore.API]VideoRentStore.API.Controllers.MoviesController::#ctor([VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="38" LinesAvoided="5" />
+      </Target>
+      <Target Target="#150=M:[VideoRentStore.API]VideoRentStore.API.Controllers.MoviesController::GetMovies()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="39" LinesAvoided="5" />
+      </Target>
+      <Target Target="#31">
+        <JoinPoint Advised="#32" Advising="#123" Description="#126" Ordinal="40" LinesAvoided="7" />
+      </Target>
+      <Target Target="#33">
+        <JoinPoint Advised="#34" Advising="#123" Description="#126" Ordinal="41" LinesAvoided="7" />
+      </Target>
+      <Target Target="#35">
+        <JoinPoint Advised="#36" Advising="#123" Description="#126" Ordinal="42" LinesAvoided="7" />
+      </Target>
+      <Target Target="#37">
+        <JoinPoint Advised="#38" Advising="#123" Description="#126" Ordinal="43" LinesAvoided="7" />
+      </Target>
+      <Target Target="#151=M:[VideoRentStore.API]VideoRentStore.API.Controllers.RentsController::#ctor([VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="44" LinesAvoided="5" />
+      </Target>
+      <Target Target="#152=M:[VideoRentStore.API]VideoRentStore.API.Controllers.RentsController::GetRents()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="45" LinesAvoided="5" />
+      </Target>
+      <Target Target="#39">
+        <JoinPoint Advised="#40" Advising="#123" Description="#126" Ordinal="46" LinesAvoided="7" />
+      </Target>
+      <Target Target="#41">
+        <JoinPoint Advised="#42" Advising="#123" Description="#126" Ordinal="47" LinesAvoided="7" />
+      </Target>
+      <Target Target="#43">
+        <JoinPoint Advised="#44" Advising="#123" Description="#126" Ordinal="48" LinesAvoided="7" />
+      </Target>
+      <Target Target="#45">
+        <JoinPoint Advised="#46" Advising="#123" Description="#126" Ordinal="49" LinesAvoided="7" />
+      </Target>
+      <Target Target="#153=M:[VideoRentStore.API]VideoRentStore.API.Aspects.GlobalAspects::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="50" LinesAvoided="5" />
+      </Target>
+      <Target Target="#154=M:[VideoRentStore.API]VideoRentStore.API.Models.IdentityContext::#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{[VideoRentStore.API]VideoRentStore.API.Models.IdentityContext})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="51" LinesAvoided="5" />
+      </Target>
+      <Target Target="#155=M:[VideoRentStore.API]VideoRentStore.API.Models.IdentityContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="52" LinesAvoided="5" />
+      </Target>
+      <Target Target="#156=M:[VideoRentStore.API]VideoRentStore.API.Models.Customer::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="53" LinesAvoided="5" />
+      </Target>
+      <Target Target="#157=M:[VideoRentStore.API]VideoRentStore.API.Models.Customer::set_IdCustomer(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="54" LinesAvoided="5" />
+      </Target>
+      <Target Target="#158=M:[VideoRentStore.API]VideoRentStore.API.Models.Customer::set_Name(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="55" LinesAvoided="5" />
+      </Target>
+      <Target Target="#159=M:[VideoRentStore.API]VideoRentStore.API.Models.Customer::set_Surname(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="56" LinesAvoided="5" />
+      </Target>
+      <Target Target="#160=M:[VideoRentStore.API]VideoRentStore.API.Models.Customer::set_Rents(System.Collections.Generic.ICollection{[VideoRentStore.API]VideoRentStore.API.Models.Rent})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="57" LinesAvoided="5" />
+      </Target>
+      <Target Target="#161=M:[VideoRentStore.API]VideoRentStore.API.Models.Director::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="58" LinesAvoided="5" />
+      </Target>
+      <Target Target="#162=M:[VideoRentStore.API]VideoRentStore.API.Models.Director::set_IdDirector(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="59" LinesAvoided="5" />
+      </Target>
+      <Target Target="#163=M:[VideoRentStore.API]VideoRentStore.API.Models.Director::set_Name(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="60" LinesAvoided="5" />
+      </Target>
+      <Target Target="#164=M:[VideoRentStore.API]VideoRentStore.API.Models.Director::set_Surname(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="61" LinesAvoided="5" />
+      </Target>
+      <Target Target="#165=M:[VideoRentStore.API]VideoRentStore.API.Models.Director::set_Movies(System.Collections.Generic.ICollection{[VideoRentStore.API]VideoRentStore.API.Models.Movie})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="62" LinesAvoided="5" />
+      </Target>
+      <Target Target="#166=M:[VideoRentStore.API]VideoRentStore.API.Models.Genre::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="63" LinesAvoided="5" />
+      </Target>
+      <Target Target="#167=M:[VideoRentStore.API]VideoRentStore.API.Models.Genre::set_IdGenre(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="64" LinesAvoided="5" />
+      </Target>
+      <Target Target="#168=M:[VideoRentStore.API]VideoRentStore.API.Models.Genre::set_Name(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="65" LinesAvoided="5" />
+      </Target>
+      <Target Target="#169=M:[VideoRentStore.API]VideoRentStore.API.Models.Genre::set_Movies(System.Collections.Generic.ICollection{[VideoRentStore.API]VideoRentStore.API.Models.Movie})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="66" LinesAvoided="5" />
+      </Target>
+      <Target Target="#170=M:[VideoRentStore.API]VideoRentStore.API.Models.Movie::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="67" LinesAvoided="5" />
+      </Target>
+      <Target Target="#171=M:[VideoRentStore.API]VideoRentStore.API.Models.Movie::set_IdMovie(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="68" LinesAvoided="5" />
+      </Target>
+      <Target Target="#172=M:[VideoRentStore.API]VideoRentStore.API.Models.Movie::set_Title(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="69" LinesAvoided="5" />
+      </Target>
+      <Target Target="#173=M:[VideoRentStore.API]VideoRentStore.API.Models.Movie::set_Year(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="70" LinesAvoided="5" />
+      </Target>
+      <Target Target="#174=M:[VideoRentStore.API]VideoRentStore.API.Models.Movie::set_GenreId(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="71" LinesAvoided="5" />
+      </Target>
+      <Target Target="#175=M:[VideoRentStore.API]VideoRentStore.API.Models.Movie::set_DirectorId(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="72" LinesAvoided="5" />
+      </Target>
+      <Target Target="#176=M:[VideoRentStore.API]VideoRentStore.API.Models.Movie::set_Director([VideoRentStore.API]VideoRentStore.API.Models.Director)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="73" LinesAvoided="5" />
+      </Target>
+      <Target Target="#177=M:[VideoRentStore.API]VideoRentStore.API.Models.Movie::set_Genre([VideoRentStore.API]VideoRentStore.API.Models.Genre)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="74" LinesAvoided="5" />
+      </Target>
+      <Target Target="#178=M:[VideoRentStore.API]VideoRentStore.API.Models.Movie::set_Rents(System.Collections.Generic.ICollection{[VideoRentStore.API]VideoRentStore.API.Models.Rent})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="75" LinesAvoided="5" />
+      </Target>
+      <Target Target="#179=M:[VideoRentStore.API]VideoRentStore.API.Models.Rent::set_IdRent(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="76" LinesAvoided="5" />
+      </Target>
+      <Target Target="#180=M:[VideoRentStore.API]VideoRentStore.API.Models.Rent::set_DateOfRent(System.DateTime)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="77" LinesAvoided="5" />
+      </Target>
+      <Target Target="#181=M:[VideoRentStore.API]VideoRentStore.API.Models.Rent::set_DueDate(System.DateTime)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="78" LinesAvoided="5" />
+      </Target>
+      <Target Target="#182=M:[VideoRentStore.API]VideoRentStore.API.Models.Rent::set_MovieId(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="79" LinesAvoided="5" />
+      </Target>
+      <Target Target="#183=M:[VideoRentStore.API]VideoRentStore.API.Models.Rent::set_CustomerId(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="80" LinesAvoided="5" />
+      </Target>
+      <Target Target="#184=M:[VideoRentStore.API]VideoRentStore.API.Models.Rent::set_Movie([VideoRentStore.API]VideoRentStore.API.Models.Movie)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="81" LinesAvoided="5" />
+      </Target>
+      <Target Target="#185=M:[VideoRentStore.API]VideoRentStore.API.Models.Rent::set_Customer([VideoRentStore.API]VideoRentStore.API.Models.Customer)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="82" LinesAvoided="5" />
+      </Target>
+      <Target Target="#186=M:[VideoRentStore.API]VideoRentStore.API.Models.Rent::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="83" LinesAvoided="5" />
+      </Target>
+      <Target Target="#187=M:[VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext::#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{[VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="84" LinesAvoided="5" />
+      </Target>
+      <Target Target="#188=M:[VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext::set_Movies(Microsoft.EntityFrameworkCore.DbSet{[VideoRentStore.API]VideoRentStore.API.Models.Movie})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="85" LinesAvoided="5" />
+      </Target>
+      <Target Target="#189=M:[VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext::set_Genres(Microsoft.EntityFrameworkCore.DbSet{[VideoRentStore.API]VideoRentStore.API.Models.Genre})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="86" LinesAvoided="5" />
+      </Target>
+      <Target Target="#190=M:[VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext::set_Directors(Microsoft.EntityFrameworkCore.DbSet{[VideoRentStore.API]VideoRentStore.API.Models.Director})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="87" LinesAvoided="5" />
+      </Target>
+      <Target Target="#191=M:[VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext::set_Rents(Microsoft.EntityFrameworkCore.DbSet{[VideoRentStore.API]VideoRentStore.API.Models.Rent})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="88" LinesAvoided="5" />
+      </Target>
+      <Target Target="#192=M:[VideoRentStore.API]VideoRentStore.API.Models.VideoRentStoreDBContext::set_Customers(Microsoft.EntityFrameworkCore.DbSet{[VideoRentStore.API]VideoRentStore.API.Models.Customer})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="89" LinesAvoided="5" />
+      </Target>
+      <Target Target="#193=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.IdentityHostingStartup::Configure(Microsoft.AspNetCore.Hosting.IWebHostBuilder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="90" LinesAvoided="5" />
+      </Target>
+      <Target Target="#194=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.IdentityHostingStartup::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="91" LinesAvoided="5" />
+      </Target>
+      <Target Target="#195=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.ErrorModel::set_RequestId(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="92" LinesAvoided="5" />
+      </Target>
+      <Target Target="#196=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.ErrorModel::OnGet()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="93" LinesAvoided="5" />
+      </Target>
+      <Target Target="#197=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.ErrorModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="94" LinesAvoided="5" />
+      </Target>
+      <Target Target="#198=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.AccessDeniedModel::OnGet()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="95" LinesAvoided="5" />
+      </Target>
+      <Target Target="#199=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.AccessDeniedModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="96" LinesAvoided="5" />
+      </Target>
+      <Target Target="#200=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ConfirmEmailModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="97" LinesAvoided="5" />
+      </Target>
+      <Target Target="#47">
+        <JoinPoint Advised="#48" Advising="#123" Description="#126" Ordinal="98" LinesAvoided="7" />
+      </Target>
+      <Target Target="#201=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel::#ctor(Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="99" LinesAvoided="5" />
+      </Target>
+      <Target Target="#202=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="100" LinesAvoided="5" />
+      </Target>
+      <Target Target="#203=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel::set_LoginProvider(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="101" LinesAvoided="5" />
+      </Target>
+      <Target Target="#204=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel::set_ReturnUrl(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="102" LinesAvoided="5" />
+      </Target>
+      <Target Target="#205=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel::set_ErrorMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="103" LinesAvoided="5" />
+      </Target>
+      <Target Target="#206=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel::OnGetAsync()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="104" LinesAvoided="5" />
+      </Target>
+      <Target Target="#207=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel::OnPost(System.String, System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="105" LinesAvoided="5" />
+      </Target>
+      <Target Target="#49">
+        <JoinPoint Advised="#50" Advising="#123" Description="#126" Ordinal="108" LinesAvoided="7" />
+      </Target>
+      <Target Target="#51">
+        <JoinPoint Advised="#52" Advising="#123" Description="#126" Ordinal="109" LinesAvoided="7" />
+      </Target>
+      <Target Target="#208=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ForgotPasswordModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.UI.Services.IEmailSender)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="110" LinesAvoided="5" />
+      </Target>
+      <Target Target="#209=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ForgotPasswordModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ForgotPasswordModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="111" LinesAvoided="5" />
+      </Target>
+      <Target Target="#53">
+        <JoinPoint Advised="#54" Advising="#123" Description="#126" Ordinal="114" LinesAvoided="7" />
+      </Target>
+      <Target Target="#210=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ForgotPasswordConfirmation::OnGet()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="115" LinesAvoided="5" />
+      </Target>
+      <Target Target="#211=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ForgotPasswordConfirmation::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="116" LinesAvoided="5" />
+      </Target>
+      <Target Target="#212=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LockoutModel::OnGet()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="117" LinesAvoided="5" />
+      </Target>
+      <Target Target="#213=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LockoutModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="118" LinesAvoided="5" />
+      </Target>
+      <Target Target="#214=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel::#ctor(Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="119" LinesAvoided="5" />
+      </Target>
+      <Target Target="#215=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="120" LinesAvoided="5" />
+      </Target>
+      <Target Target="#216=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel::set_ExternalLogins(System.Collections.Generic.IList{[Microsoft.AspNetCore.Authentication.Abstractions]Microsoft.AspNetCore.Authentication.AuthenticationScheme})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="121" LinesAvoided="5" />
+      </Target>
+      <Target Target="#217=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel::set_ReturnUrl(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="122" LinesAvoided="5" />
+      </Target>
+      <Target Target="#218=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel::set_ErrorMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="123" LinesAvoided="5" />
+      </Target>
+      <Target Target="#55">
+        <JoinPoint Advised="#56" Advising="#123" Description="#126" Ordinal="128" LinesAvoided="7" />
+      </Target>
+      <Target Target="#57">
+        <JoinPoint Advised="#58" Advising="#123" Description="#126" Ordinal="129" LinesAvoided="7" />
+      </Target>
+      <Target Target="#219=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel::#ctor(Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="130" LinesAvoided="5" />
+      </Target>
+      <Target Target="#220=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="131" LinesAvoided="5" />
+      </Target>
+      <Target Target="#221=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel::set_RememberMe(System.Boolean)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="132" LinesAvoided="5" />
+      </Target>
+      <Target Target="#222=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel::set_ReturnUrl(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="133" LinesAvoided="5" />
+      </Target>
+      <Target Target="#59">
+        <JoinPoint Advised="#60" Advising="#123" Description="#126" Ordinal="137" LinesAvoided="7" />
+      </Target>
+      <Target Target="#61">
+        <JoinPoint Advised="#62" Advising="#123" Description="#126" Ordinal="138" LinesAvoided="7" />
+      </Target>
+      <Target Target="#223=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel::#ctor(Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="139" LinesAvoided="5" />
+      </Target>
+      <Target Target="#224=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="140" LinesAvoided="5" />
+      </Target>
+      <Target Target="#225=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel::set_ReturnUrl(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="141" LinesAvoided="5" />
+      </Target>
+      <Target Target="#63">
+        <JoinPoint Advised="#64" Advising="#123" Description="#126" Ordinal="144" LinesAvoided="7" />
+      </Target>
+      <Target Target="#65">
+        <JoinPoint Advised="#66" Advising="#123" Description="#126" Ordinal="145" LinesAvoided="7" />
+      </Target>
+      <Target Target="#226=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LogoutModel::#ctor(Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LogoutModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="146" LinesAvoided="5" />
+      </Target>
+      <Target Target="#227=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LogoutModel::OnGet()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="147" LinesAvoided="5" />
+      </Target>
+      <Target Target="#67">
+        <JoinPoint Advised="#68" Advising="#123" Description="#126" Ordinal="148" LinesAvoided="7" />
+      </Target>
+      <Target Target="#228=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel}, Microsoft.AspNetCore.Identity.UI.Services.IEmailSender)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="149" LinesAvoided="5" />
+      </Target>
+      <Target Target="#229=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="150" LinesAvoided="5" />
+      </Target>
+      <Target Target="#230=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel::set_ReturnUrl(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="151" LinesAvoided="5" />
+      </Target>
+      <Target Target="#231=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel::OnGet(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="152" LinesAvoided="5" />
+      </Target>
+      <Target Target="#69">
+        <JoinPoint Advised="#70" Advising="#123" Description="#126" Ordinal="157" LinesAvoided="7" />
+      </Target>
+      <Target Target="#232=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="158" LinesAvoided="5" />
+      </Target>
+      <Target Target="#233=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="159" LinesAvoided="5" />
+      </Target>
+      <Target Target="#234=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel::OnGet(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="160" LinesAvoided="5" />
+      </Target>
+      <Target Target="#71">
+        <JoinPoint Advised="#72" Advising="#123" Description="#126" Ordinal="166" LinesAvoided="7" />
+      </Target>
+      <Target Target="#235=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordConfirmationModel::OnGet()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="167" LinesAvoided="5" />
+      </Target>
+      <Target Target="#236=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordConfirmationModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="168" LinesAvoided="5" />
+      </Target>
+      <Target Target="#237=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="169" LinesAvoided="5" />
+      </Target>
+      <Target Target="#238=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="170" LinesAvoided="5" />
+      </Target>
+      <Target Target="#239=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel::set_StatusMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="171" LinesAvoided="5" />
+      </Target>
+      <Target Target="#73">
+        <JoinPoint Advised="#74" Advising="#123" Description="#126" Ordinal="176" LinesAvoided="7" />
+      </Target>
+      <Target Target="#75">
+        <JoinPoint Advised="#76" Advising="#123" Description="#126" Ordinal="177" LinesAvoided="7" />
+      </Target>
+      <Target Target="#240=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="178" LinesAvoided="5" />
+      </Target>
+      <Target Target="#241=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="179" LinesAvoided="5" />
+      </Target>
+      <Target Target="#242=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel::set_RequirePassword(System.Boolean)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="180" LinesAvoided="5" />
+      </Target>
+      <Target Target="#77">
+        <JoinPoint Advised="#78" Advising="#123" Description="#126" Ordinal="183" LinesAvoided="7" />
+      </Target>
+      <Target Target="#79">
+        <JoinPoint Advised="#80" Advising="#123" Description="#126" Ordinal="184" LinesAvoided="7" />
+      </Target>
+      <Target Target="#243=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.Disable2faModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.Disable2faModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="185" LinesAvoided="5" />
+      </Target>
+      <Target Target="#244=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.Disable2faModel::set_StatusMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="186" LinesAvoided="5" />
+      </Target>
+      <Target Target="#81">
+        <JoinPoint Advised="#82" Advising="#123" Description="#126" Ordinal="187" LinesAvoided="7" />
+      </Target>
+      <Target Target="#83">
+        <JoinPoint Advised="#84" Advising="#123" Description="#126" Ordinal="188" LinesAvoided="7" />
+      </Target>
+      <Target Target="#245=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DownloadPersonalDataModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DownloadPersonalDataModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="189" LinesAvoided="5" />
+      </Target>
+      <Target Target="#85">
+        <JoinPoint Advised="#86" Advising="#123" Description="#126" Ordinal="190" LinesAvoided="7" />
+      </Target>
+      <Target Target="#246=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel}, System.Text.Encodings.Web.UrlEncoder)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="191" LinesAvoided="5" />
+      </Target>
+      <Target Target="#247=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel::set_SharedKey(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="192" LinesAvoided="5" />
+      </Target>
+      <Target Target="#248=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel::set_AuthenticatorUri(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="193" LinesAvoided="5" />
+      </Target>
+      <Target Target="#249=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel::set_RecoveryCodes(System.String[])">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="194" LinesAvoided="5" />
+      </Target>
+      <Target Target="#250=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel::set_StatusMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="195" LinesAvoided="5" />
+      </Target>
+      <Target Target="#251=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="196" LinesAvoided="5" />
+      </Target>
+      <Target Target="#87">
+        <JoinPoint Advised="#88" Advising="#123" Description="#126" Ordinal="199" LinesAvoided="7" />
+      </Target>
+      <Target Target="#89">
+        <JoinPoint Advised="#90" Advising="#123" Description="#126" Ordinal="200" LinesAvoided="7" />
+      </Target>
+      <Target Target="#252=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="201" LinesAvoided="5" />
+      </Target>
+      <Target Target="#253=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel::set_CurrentLogins(System.Collections.Generic.IList{[Microsoft.Extensions.Identity.Core]Microsoft.AspNetCore.Identity.UserLoginInfo})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="202" LinesAvoided="5" />
+      </Target>
+      <Target Target="#254=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel::set_OtherLogins(System.Collections.Generic.IList{[Microsoft.AspNetCore.Authentication.Abstractions]Microsoft.AspNetCore.Authentication.AuthenticationScheme})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="203" LinesAvoided="5" />
+      </Target>
+      <Target Target="#255=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel::set_ShowRemoveButton(System.Boolean)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="204" LinesAvoided="5" />
+      </Target>
+      <Target Target="#256=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ExternalLoginsModel::set_StatusMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="205" LinesAvoided="5" />
+      </Target>
+      <Target Target="#91">
+        <JoinPoint Advised="#92" Advising="#123" Description="#126" Ordinal="206" LinesAvoided="7" />
+      </Target>
+      <Target Target="#93">
+        <JoinPoint Advised="#94" Advising="#123" Description="#126" Ordinal="207" LinesAvoided="7" />
+      </Target>
+      <Target Target="#95">
+        <JoinPoint Advised="#96" Advising="#123" Description="#126" Ordinal="208" LinesAvoided="7" />
+      </Target>
+      <Target Target="#97">
+        <JoinPoint Advised="#98" Advising="#123" Description="#126" Ordinal="209" LinesAvoided="7" />
+      </Target>
+      <Target Target="#257=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="210" LinesAvoided="5" />
+      </Target>
+      <Target Target="#258=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel::set_RecoveryCodes(System.String[])">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="211" LinesAvoided="5" />
+      </Target>
+      <Target Target="#259=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.GenerateRecoveryCodesModel::set_StatusMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="212" LinesAvoided="5" />
+      </Target>
+      <Target Target="#99">
+        <JoinPoint Advised="#100" Advising="#123" Description="#126" Ordinal="213" LinesAvoided="7" />
+      </Target>
+      <Target Target="#101">
+        <JoinPoint Advised="#102" Advising="#123" Description="#126" Ordinal="214" LinesAvoided="7" />
+      </Target>
+      <Target Target="#260=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.UI.Services.IEmailSender)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="215" LinesAvoided="5" />
+      </Target>
+      <Target Target="#261=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel::set_Username(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="216" LinesAvoided="5" />
+      </Target>
+      <Target Target="#262=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel::set_IsEmailConfirmed(System.Boolean)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="217" LinesAvoided="5" />
+      </Target>
+      <Target Target="#263=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel::set_StatusMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="218" LinesAvoided="5" />
+      </Target>
+      <Target Target="#264=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="219" LinesAvoided="5" />
+      </Target>
+      <Target Target="#103">
+        <JoinPoint Advised="#104" Advising="#123" Description="#126" Ordinal="223" LinesAvoided="7" />
+      </Target>
+      <Target Target="#105">
+        <JoinPoint Advised="#106" Advising="#123" Description="#126" Ordinal="224" LinesAvoided="7" />
+      </Target>
+      <Target Target="#107">
+        <JoinPoint Advised="#108" Advising="#123" Description="#126" Ordinal="225" LinesAvoided="7" />
+      </Target>
+      <Target Target="#265=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ManageNavPages::IndexNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="226" LinesAvoided="5" />
+      </Target>
+      <Target Target="#266=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ManageNavPages::ChangePasswordNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="227" LinesAvoided="5" />
+      </Target>
+      <Target Target="#267=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ManageNavPages::DownloadPersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="228" LinesAvoided="5" />
+      </Target>
+      <Target Target="#268=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ManageNavPages::DeletePersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="229" LinesAvoided="5" />
+      </Target>
+      <Target Target="#269=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ManageNavPages::ExternalLoginsNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="230" LinesAvoided="5" />
+      </Target>
+      <Target Target="#270=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ManageNavPages::PersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="231" LinesAvoided="5" />
+      </Target>
+      <Target Target="#271=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ManageNavPages::TwoFactorAuthenticationNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="232" LinesAvoided="5" />
+      </Target>
+      <Target Target="#272=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ManageNavPages::PageNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext, System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="233" LinesAvoided="5" />
+      </Target>
+      <Target Target="#273=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.PersonalDataModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.PersonalDataModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="234" LinesAvoided="5" />
+      </Target>
+      <Target Target="#109">
+        <JoinPoint Advised="#110" Advising="#123" Description="#126" Ordinal="235" LinesAvoided="7" />
+      </Target>
+      <Target Target="#274=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="236" LinesAvoided="5" />
+      </Target>
+      <Target Target="#275=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ResetAuthenticatorModel::set_StatusMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="237" LinesAvoided="5" />
+      </Target>
+      <Target Target="#111">
+        <JoinPoint Advised="#112" Advising="#123" Description="#126" Ordinal="238" LinesAvoided="7" />
+      </Target>
+      <Target Target="#113">
+        <JoinPoint Advised="#114" Advising="#123" Description="#126" Ordinal="239" LinesAvoided="7" />
+      </Target>
+      <Target Target="#276=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="240" LinesAvoided="5" />
+      </Target>
+      <Target Target="#277=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel::set_Input([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel+InputModel)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="241" LinesAvoided="5" />
+      </Target>
+      <Target Target="#278=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel::set_StatusMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="242" LinesAvoided="5" />
+      </Target>
+      <Target Target="#115">
+        <JoinPoint Advised="#116" Advising="#123" Description="#126" Ordinal="246" LinesAvoided="7" />
+      </Target>
+      <Target Target="#117">
+        <JoinPoint Advised="#118" Advising="#123" Description="#126" Ordinal="247" LinesAvoided="7" />
+      </Target>
+      <Target Target="#279=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel::#ctor(Microsoft.AspNetCore.Identity.UserManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.AspNetCore.Identity.SignInManager{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser}, Microsoft.Extensions.Logging.ILogger{[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel})">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="248" LinesAvoided="5" />
+      </Target>
+      <Target Target="#280=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel::set_HasAuthenticator(System.Boolean)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="249" LinesAvoided="5" />
+      </Target>
+      <Target Target="#281=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel::set_RecoveryCodesLeft(System.Int32)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="250" LinesAvoided="5" />
+      </Target>
+      <Target Target="#282=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel::set_Is2faEnabled(System.Boolean)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="251" LinesAvoided="5" />
+      </Target>
+      <Target Target="#283=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel::set_IsMachineRemembered(System.Boolean)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="252" LinesAvoided="5" />
+      </Target>
+      <Target Target="#284=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel::set_StatusMessage(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="253" LinesAvoided="5" />
+      </Target>
+      <Target Target="#119">
+        <JoinPoint Advised="#120" Advising="#123" Description="#126" Ordinal="254" LinesAvoided="7" />
+      </Target>
+      <Target Target="#121">
+        <JoinPoint Advised="#122" Advising="#123" Description="#126" Ordinal="255" LinesAvoided="7" />
+      </Target>
+      <Target Target="#285=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.ApplicationUser::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="256" LinesAvoided="5" />
+      </Target>
+      <Target Target="#286=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.LoginViewModel::set_Email(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="257" LinesAvoided="5" />
+      </Target>
+      <Target Target="#287=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.LoginViewModel::set_Username(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="258" LinesAvoided="5" />
+      </Target>
+      <Target Target="#288=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.LoginViewModel::set_Password(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="259" LinesAvoided="5" />
+      </Target>
+      <Target Target="#289=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.LoginViewModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="260" LinesAvoided="5" />
+      </Target>
+      <Target Target="#290=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.RegisterViewModel::set_Email(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="261" LinesAvoided="5" />
+      </Target>
+      <Target Target="#291=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.RegisterViewModel::set_Username(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="262" LinesAvoided="5" />
+      </Target>
+      <Target Target="#292=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.RegisterViewModel::set_Password(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="263" LinesAvoided="5" />
+      </Target>
+      <Target Target="#293=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.RegisterViewModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="264" LinesAvoided="5" />
+      </Target>
+      <Target Target="#294=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel+InputModel::set_Email(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="106" LinesAvoided="5" />
+      </Target>
+      <Target Target="#295=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ExternalLoginModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="107" LinesAvoided="5" />
+      </Target>
+      <Target Target="#296=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ForgotPasswordModel+InputModel::set_Email(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="112" LinesAvoided="5" />
+      </Target>
+      <Target Target="#297=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ForgotPasswordModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="113" LinesAvoided="5" />
+      </Target>
+      <Target Target="#298=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel+InputModel::set_Email(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="124" LinesAvoided="5" />
+      </Target>
+      <Target Target="#299=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel+InputModel::set_Password(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="125" LinesAvoided="5" />
+      </Target>
+      <Target Target="#300=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel+InputModel::set_RememberMe(System.Boolean)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="126" LinesAvoided="5" />
+      </Target>
+      <Target Target="#301=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="127" LinesAvoided="5" />
+      </Target>
+      <Target Target="#302=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel+InputModel::set_TwoFactorCode(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="134" LinesAvoided="5" />
+      </Target>
+      <Target Target="#303=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel+InputModel::set_RememberMachine(System.Boolean)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="135" LinesAvoided="5" />
+      </Target>
+      <Target Target="#304=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWith2faModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="136" LinesAvoided="5" />
+      </Target>
+      <Target Target="#305=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel+InputModel::set_RecoveryCode(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="142" LinesAvoided="5" />
+      </Target>
+      <Target Target="#306=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.LoginWithRecoveryCodeModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="143" LinesAvoided="5" />
+      </Target>
+      <Target Target="#307=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel+InputModel::set_Email(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="153" LinesAvoided="5" />
+      </Target>
+      <Target Target="#308=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel+InputModel::set_Password(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="154" LinesAvoided="5" />
+      </Target>
+      <Target Target="#309=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel+InputModel::set_ConfirmPassword(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="155" LinesAvoided="5" />
+      </Target>
+      <Target Target="#310=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.RegisterModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="156" LinesAvoided="5" />
+      </Target>
+      <Target Target="#311=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel+InputModel::set_Email(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="161" LinesAvoided="5" />
+      </Target>
+      <Target Target="#312=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel+InputModel::set_Password(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="162" LinesAvoided="5" />
+      </Target>
+      <Target Target="#313=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel+InputModel::set_ConfirmPassword(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="163" LinesAvoided="5" />
+      </Target>
+      <Target Target="#314=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel+InputModel::set_Code(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="164" LinesAvoided="5" />
+      </Target>
+      <Target Target="#315=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.ResetPasswordModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="165" LinesAvoided="5" />
+      </Target>
+      <Target Target="#316=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel+InputModel::set_OldPassword(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="172" LinesAvoided="5" />
+      </Target>
+      <Target Target="#317=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel+InputModel::set_NewPassword(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="173" LinesAvoided="5" />
+      </Target>
+      <Target Target="#318=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel+InputModel::set_ConfirmPassword(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="174" LinesAvoided="5" />
+      </Target>
+      <Target Target="#319=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.ChangePasswordModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="175" LinesAvoided="5" />
+      </Target>
+      <Target Target="#320=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel+InputModel::set_Password(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="181" LinesAvoided="5" />
+      </Target>
+      <Target Target="#321=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.DeletePersonalDataModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="182" LinesAvoided="5" />
+      </Target>
+      <Target Target="#322=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel+InputModel::set_Code(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="197" LinesAvoided="5" />
+      </Target>
+      <Target Target="#323=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.EnableAuthenticatorModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="198" LinesAvoided="5" />
+      </Target>
+      <Target Target="#324=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel+InputModel::set_Email(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="220" LinesAvoided="5" />
+      </Target>
+      <Target Target="#325=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel+InputModel::set_PhoneNumber(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="221" LinesAvoided="5" />
+      </Target>
+      <Target Target="#326=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.IndexModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="222" LinesAvoided="5" />
+      </Target>
+      <Target Target="#327=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel+InputModel::set_NewPassword(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="243" LinesAvoided="5" />
+      </Target>
+      <Target Target="#328=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel+InputModel::set_ConfirmPassword(System.String)">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="244" LinesAvoided="5" />
+      </Target>
+      <Target Target="#329=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.SetPasswordModel+InputModel::#ctor()">
+        <JoinPoint Advising="#123" Description="#126" Ordinal="245" LinesAvoided="5" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>
