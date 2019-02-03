@@ -14,6 +14,7 @@ using Microsoft.Extensions.Options;
 using VideoRentStore.API.Models;
 using PostSharp.Patterns.Diagnostics;
 using VideoRentStore.API.Logging;
+using Prometheus;
 
 namespace VideoRentStore.API
 {
@@ -33,7 +34,9 @@ namespace VideoRentStore.API
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            var connection = @"Data source=(LocalDb)\MSSQLLocalDB;Database=VideoRentStoreDB;Trusted_Connection=True;ConnectRetryCount=0";
+            services.AddMetrics();
+
+            var connection = @"Data source=(LocalDb)\MSSQLLocalDB;Database=VideoRentStoreDB;Trusted_Connection=True;";
             services.AddDbContext<VideoRentStoreDBContext>(options => options.UseSqlServer(connection));
 
             services.AddCors(options =>
@@ -46,6 +49,8 @@ namespace VideoRentStore.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseMetricServer();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -55,6 +60,7 @@ namespace VideoRentStore.API
                 app.UseHsts();
             }
 
+            //app.UseHttpMetrics();
             app.UseCors("AllowSpecificOrigin");
             app.UseHttpsRedirection();
             app.UseStaticFiles();

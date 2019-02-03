@@ -2,15 +2,18 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using VideoRentStore.API.DAL;
 using VideoRentStore.API.Models;
 
 namespace VideoRentStore.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("AllowSpecificOrigin")]
     public class CustomersController : ControllerBase
     {
         private readonly VideoRentStoreDBContext _context;
@@ -37,7 +40,7 @@ namespace VideoRentStore.API.Controllers
             }
 
             var customer = await _context.Customers.Include(k => k.Rents).Include("Rents.Movie").FirstOrDefaultAsync(k => k.IdCustomer == id);
-
+            //return _repo.Get(id);
             if (customer == null)
             {
                 return NotFound();

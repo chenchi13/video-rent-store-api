@@ -10,9 +10,15 @@ namespace VideoRentStore.API.Models
     {
         public VideoRentStoreDBContext(DbContextOptions<VideoRentStoreDBContext> options)
             : base(options)
-        { }
+        {
+        }
 
-        public DbSet<Movie> Movies { get; set; }
+        public VideoRentStoreDBContext()
+            : base()
+        {
+        }
+
+        public virtual DbSet<Movie> Movies { get; set; }
         public DbSet<Genre> Genres { get; set; }
         public DbSet<Director> Directors { get; set; }
         public DbSet<Rent> Rents { get; set; }

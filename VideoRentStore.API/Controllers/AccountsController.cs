@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Prometheus;
 using VideoRentStore.API.Areas.Identity.Data;
 using VideoRentStore.API.Models;
 
@@ -14,10 +16,13 @@ namespace VideoRentStore.API.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
+    [EnableCors("AllowSpecificOrigin")]
     public class AccountsController : Controller
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
+
+        private Counter counter = Metrics.CreateCounter("myLoginCounter", "some help about this");
 
         //private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
 
@@ -42,6 +47,7 @@ namespace VideoRentStore.API.Controllers
 
                 if (result.Succeeded)
                 {
+                    counter.Inc();
                     //logger.Trace("User {username} logged in.", model.Username);
                     return Ok(new { model.Username });
                 }
