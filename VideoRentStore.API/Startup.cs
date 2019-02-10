@@ -34,7 +34,7 @@ namespace VideoRentStore.API
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddMetrics();
+            //services.AddMetrics();
 
             var connection = @"Data source=(LocalDb)\MSSQLLocalDB;Database=VideoRentStoreDB;Trusted_Connection=True;";
             services.AddDbContext<VideoRentStoreDBContext>(options => options.UseSqlServer(connection));
@@ -60,7 +60,6 @@ namespace VideoRentStore.API
                 app.UseHsts();
             }
 
-            //app.UseHttpMetrics();
             app.UseCors("AllowSpecificOrigin");
             app.UseHttpsRedirection();
             app.UseStaticFiles();

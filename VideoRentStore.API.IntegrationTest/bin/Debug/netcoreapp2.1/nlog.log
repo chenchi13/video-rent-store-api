@@ -344,3 +344,65 @@
 2019-02-03 19:31:00.7674|DEBUG|Trace|Movie.set_IdMovie(1008)|Succeeded.
 2019-02-03 19:31:00.7674|DEBUG|Trace|MoviesController.PostMovie({VideoRentStore.API.Models.Movie})|Resuming from method DbContext.SaveChangesAsync in state machine #1.
 2019-02-03 19:31:00.7720|DEBUG|Trace|MoviesController.PostMovie({VideoRentStore.API.Models.Movie})|Succeeded, returnValue = {Microsoft.AspNetCore.Mvc.CreatedAtActionResult}.
+2019-02-09 11:23:54.0563|DEBUG|Trace|Movie..ctor()|Starting.
+2019-02-09 11:23:54.1092|DEBUG|Trace|  Movie.set_Rents([])|Starting.
+2019-02-09 11:23:54.1092|DEBUG|Trace|  Movie.set_Rents([])|Succeeded.
+2019-02-09 11:23:54.1092|DEBUG|Trace|Movie..ctor()|Succeeded.
+2019-02-09 11:23:54.1092|DEBUG|Trace|Movie.set_Title("Test Movie 1")|Starting.
+2019-02-09 11:23:54.1092|DEBUG|Trace|Movie.set_Title("Test Movie 1")|Succeeded.
+2019-02-09 11:23:54.1092|DEBUG|Trace|Movie.set_Year(2019)|Starting.
+2019-02-09 11:23:54.1092|DEBUG|Trace|Movie.set_Year(2019)|Succeeded.
+2019-02-09 11:23:54.1092|DEBUG|Trace|Movie.set_GenreId(1)|Starting.
+2019-02-09 11:23:54.1092|DEBUG|Trace|Movie.set_GenreId(1)|Succeeded.
+2019-02-09 11:23:54.1092|DEBUG|Trace|Movie.set_DirectorId(1)|Starting.
+2019-02-09 11:23:54.1092|DEBUG|Trace|Movie.set_DirectorId(1)|Succeeded.
+2019-02-09 11:23:58.3138|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Starting.
+2019-02-09 11:23:58.3138|DEBUG|Trace|VideoRentStoreDBContext.set_Customers([ {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer}, {VideoRentStore.API.Models.Customer} ])|Succeeded.
+2019-02-09 11:23:58.3342|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Starting.
+2019-02-09 11:23:58.3342|DEBUG|Trace|VideoRentStoreDBContext.set_Directors([ {VideoRentStore.API.Models.Director} ])|Succeeded.
+2019-02-09 11:23:58.3512|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Starting.
+2019-02-09 11:23:58.3512|DEBUG|Trace|VideoRentStoreDBContext.set_Genres([ {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre}, {VideoRentStore.API.Models.Genre} ])|Succeeded.
+2019-02-09 11:23:58.3813|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, and 2 more ])|Starting.
+2019-02-09 11:23:58.3813|DEBUG|Trace|VideoRentStoreDBContext.set_Movies([ {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, {VideoRentStore.API.Models.Movie}, and 2 more ])|Succeeded.
+2019-02-09 11:23:58.4129|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent}, {VideoRentStore.API.Models.Rent} ])|Starting.
+2019-02-09 11:23:58.4129|DEBUG|Trace|VideoRentStoreDBContext.set_Rents([ {VideoRentStore.API.Models.Rent}, {VideoRentStore.API.Models.Rent} ])|Succeeded.
+2019-02-09 11:23:58.4129|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Starting.
+2019-02-09 11:23:58.4129|DEBUG|Trace|VideoRentStoreDBContext..ctor({Microsoft.EntityFrameworkCore.DbContextOptions`1[VideoRentStore.API.Models.VideoRentStoreDBContext]})|Succeeded.
+2019-02-09 11:23:58.4153|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Starting.
+2019-02-09 11:23:58.4153|DEBUG|Trace|MoviesController..ctor({VideoRentStore.API.Models.VideoRentStoreDBContext})|Succeeded.
+2019-02-09 11:23:58.4153|DEBUG|Trace|Movie..ctor()|Starting.
+2019-02-09 11:23:58.4153|DEBUG|Trace|  Movie.set_Rents([])|Starting.
+2019-02-09 11:23:58.4153|DEBUG|Trace|  Movie.set_Rents([])|Succeeded.
+2019-02-09 11:23:58.4153|DEBUG|Trace|Movie..ctor()|Succeeded.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_IdMovie(0)|Starting.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_IdMovie(0)|Succeeded.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_Title("Test Movie 1")|Starting.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_Title("Test Movie 1")|Succeeded.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_Year(2019)|Starting.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_Year(2019)|Succeeded.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_GenreId(1)|Starting.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_GenreId(1)|Succeeded.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_DirectorId(1)|Starting.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_DirectorId(1)|Succeeded.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_Director(null)|Starting.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_Director(null)|Succeeded.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_Genre(null)|Starting.
+2019-02-09 11:23:58.4317|DEBUG|Trace|Movie.set_Genre(null)|Succeeded.
+2019-02-09 11:23:58.4565|DEBUG|Trace|MoviesController.PostMovie({VideoRentStore.API.Models.Movie})|Starting.
+2019-02-09 11:23:58.4733|DEBUG|Trace|  Movie.set_IdMovie(-2147482647)|Starting.
+2019-02-09 11:23:58.4733|DEBUG|Trace|  Movie.set_IdMovie(-2147482647)|Succeeded.
+2019-02-09 11:23:58.4733|DEBUG|Trace|  Movie.set_Director({VideoRentStore.API.Models.Director})|Starting.
+2019-02-09 11:23:58.4733|DEBUG|Trace|  Movie.set_Director({VideoRentStore.API.Models.Director})|Succeeded.
+2019-02-09 11:23:58.4733|DEBUG|Trace|  Movie.set_Genre({VideoRentStore.API.Models.Genre})|Starting.
+2019-02-09 11:23:58.4733|DEBUG|Trace|  Movie.set_Genre({VideoRentStore.API.Models.Genre})|Succeeded.
+2019-02-09 11:23:58.5500|DEBUG|Trace|MoviesController.PostMovie({VideoRentStore.API.Models.Movie})|Awaiting for method DbContext.SaveChangesAsync in state machine #1.
+2019-02-09 11:23:58.5826|DEBUG|Trace|Movie.set_IdMovie(1009)|Starting.
+2019-02-09 11:23:58.5826|DEBUG|Trace|Movie.set_IdMovie(1009)|Succeeded.
+2019-02-09 11:23:58.5826|DEBUG|Trace|MoviesController.PostMovie({VideoRentStore.API.Models.Movie})|Resuming from method DbContext.SaveChangesAsync in state machine #1.
+2019-02-09 11:23:58.5895|DEBUG|Trace|MoviesController.PostMovie({VideoRentStore.API.Models.Movie})|Succeeded, returnValue = {Microsoft.AspNetCore.Mvc.CreatedAtActionResult}.
+2019-02-09 11:23:58.6754|DEBUG|Trace|IdentityHostingStartup..ctor()|Starting.
+2019-02-09 11:23:58.6754|DEBUG|Trace|IdentityHostingStartup..ctor()|Succeeded.
+2019-02-09 11:23:58.6754|DEBUG|Trace|IdentityHostingStartup.Configure({Microsoft.AspNetCore.Hosting.WebHostBuilder})|Starting.
+2019-02-09 11:23:58.6754|DEBUG|Trace|IdentityHostingStartup.Configure({Microsoft.AspNetCore.Hosting.WebHostBuilder})|Succeeded.
+2019-02-09 11:23:58.6892|DEBUG|Trace|LogConfig.Configure()|Starting.
+2019-02-09 11:23:58.6892|DEBUG|Trace|LogConfig.Configure()|Succeeded.

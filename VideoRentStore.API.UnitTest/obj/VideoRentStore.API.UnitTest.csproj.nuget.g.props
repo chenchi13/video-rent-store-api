@@ -23,6 +23,6 @@
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">C:\Users\oluji\.nuget\packages\xunit.analyzers\0.10.0</Pkgxunit_analyzers>
     <PkgPostSharp_Patterns_Common Condition=" '$(PkgPostSharp_Patterns_Common)' == '' ">C:\Users\oluji\.nuget\packages\postsharp.patterns.common\6.0.34</PkgPostSharp_Patterns_Common>
     <PkgPostSharp_Patterns_Diagnostics Condition=" '$(PkgPostSharp_Patterns_Diagnostics)' == '' ">C:\Users\oluji\.nuget\packages\postsharp.patterns.diagnostics\6.0.34</PkgPostSharp_Patterns_Diagnostics>
-    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\oluji\.nuget\packages\microsoft.codeanalysis.analyzers\1.1.0</PkgMicrosoft_CodeAnalysis_Analyzers>
   </PropertyGroup>
 </Project>

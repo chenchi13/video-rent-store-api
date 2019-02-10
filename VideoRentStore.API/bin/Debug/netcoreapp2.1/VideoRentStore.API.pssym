@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Symbols LinesOfCode="935" PostSharpLinesOfCode="0" EnhancedTypesCount="64" SchemaVersion="1" PostSharpVersion="6.0.34.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+<Symbols LinesOfCode="934" PostSharpLinesOfCode="0" EnhancedTypesCount="64" SchemaVersion="1" PostSharpVersion="6.0.34.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
   <Evolution Source="#1=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController::Login([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.LoginViewModel)" Target="#2=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController+&lt;Login&gt;d__4::MoveNext()" />
   <Evolution Source="#3=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController::Register([VideoRentStore.API]VideoRentStore.API.Areas.Identity.Data.RegisterViewModel)" Target="#4=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController+&lt;Register&gt;d__5::MoveNext()" />
   <Evolution Source="#5=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController::Logout()" Target="#6=M:[VideoRentStore.API]VideoRentStore.API.Controllers.AccountsController+&lt;Logout&gt;d__6::MoveNext()" />
@@ -62,7 +62,7 @@
   <Evolution Source="#119=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel::OnGet()" Target="#120=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel+&lt;OnGet&gt;d__25::MoveNext()" />
   <Evolution Source="#121=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel::OnPost()" Target="#122=M:[VideoRentStore.API]VideoRentStore.API.Areas.Identity.Pages.Account.Manage.TwoFactorAuthenticationModel+&lt;OnPost&gt;d__26::MoveNext()" />
   <Class Class="#123=T:[PostSharp.Patterns.Diagnostics]PostSharp.Patterns.Diagnostics.LogAttribute">
-    <Instance Declaration="#124=A:VideoRentStore.API" Id="e81bd875ba6a5820">
+    <Instance Declaration="#124=A:VideoRentStore.API" Id="e81bd8750a3ee515">
       <Target Target="#125=M:[VideoRentStore.API]VideoRentStore.API.Program::Main(System.String[])">
         <JoinPoint Advising="#123" Description="#126=Adds logging" Ordinal="0" LinesAvoided="5" />
       </Target>

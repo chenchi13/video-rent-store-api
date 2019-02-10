@@ -66,26 +66,18 @@ namespace VideoRentStore.API.IntegrationTest.API
             response.StatusCode.Should().Be(HttpStatusCode.Created);
         }
 
-        //[Theory]
-        //[InlineData("DELETE")]
-        //public async Task DeleteMovieTestAsync(string method)
+        //[Fact]
+        //public async Task PutMovieTestAsync()
         //{
         //    // Arrange
-        //    var request = new HttpRequestMessage(new HttpMethod(method), "/api/Movies");
-
-        //    // post mock
         //    var stringContent = new StringContent(JsonConvert.SerializeObject(
         //        new Movie() { Title = "Test Movie 1", Year = 2019, GenreId = 1, DirectorId = 1 }),
         //        Encoding.UTF8, "application/json");
-        //    // post
-        //    var responsePost = await _client.PostAsync("/api/Movies", stringContent);
-
-
         //    // Act
-        //    var responseDel = await _client.DeleteAsync("/api/Movies/" + 5);
+        //    var response = await _client.PutAsync("/api/Movies", stringContent);
         //    // Assert
-        //    responseDel.EnsureSuccessStatusCode();
-        //    responseDel.StatusCode.Should().Be(HttpStatusCode.OK);
+        //    response.EnsureSuccessStatusCode();
+        //    response.StatusCode.Should().Be(HttpStatusCode.Created);
         //}
     }
 }
